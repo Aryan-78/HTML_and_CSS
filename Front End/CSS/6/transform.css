@@ -1,0 +1,55 @@
+/*
+    Transform
+*/
+
+.box{
+    margin-top: 200px;
+    margin-left: 100px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.box1{
+    transform: translate(200px,-100px);    
+}
+
+.box2{
+    transform: scale(3,2);
+}
+
+.box3{
+    height: 100px;
+    width: 200px;
+    transform: rotate(30deg);
+}
+
+.box4{
+    height: 100px;
+    width: 200px;
+    transform: skewx(70deg);
+}
+
+.box5{
+    height: 100px;
+    width: 200px;
+    transform: skewy(20deg);
+}
+
+.box6{
+    height: 100px;
+    width: 200px;
+    transform: rotatex(90deg);
+}
+
+.box7{
+    height: 100px;
+    width: 200px;
+    transform: rotatey(70deg);
+}
+
+.box8{
+    height: 100px;
+    width: 200px;
+    transform: rotatez(90deg);
+}

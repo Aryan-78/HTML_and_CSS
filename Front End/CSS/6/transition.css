@@ -1,0 +1,20 @@
+/*
+    transition
+*/
+
+.box{
+    font-size: 8vh;
+    width: 8vw;
+    height: 8vw;
+    background-color: red;
+    transition: background-color 2s, height 2s, width 2s, font-size 2s, transform 2s;
+    /*transition-delay: 2s;*/
+    transition-timing-function: ease-in-out;
+}
+.box:hover{
+    font-size: 50vw;
+    height: 50vw;
+    width: 50vw;
+    background-color: yellow;
+    transform: rotate(360deg);
+}

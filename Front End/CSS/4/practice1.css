@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    background-image: url(gold-g656dc0a68_1280.png);
+    background-repeat: no-repeat;
+    background-size: 50vh;
+    background-position-x: 70vw;
+    background-position-y: 20vh;
+}
+
+nav{
+    margin-top: 0;
+    border-radius: 10px;
+    margin: 0;
+    padding-top: 0px;
+    border-bottom: 1px solid rgb(136, 175, 77);
+    position: static;
+    height: 7vh;
+    width: 100%;
+}
+
+.app_name{
+    font-size: 6vh;
+    color: rgb(91, 122, 29);
+}
+
+nav>img{
+    padding-left: 20px;
+    height: 40px;
+}
+
+.nav_button{
+    height: 7vh;
+    float: right;
+}
+.nav_button > button{
+    padding-top: 10px;
+    margin-right: 10px;
+    background-color: white;
+    font-size: 25px;
+    border: none;
+    color: rgb(91, 122, 29);
+}
+
+.nav_button > button:hover{
+    cursor: pointer;
+}
+
+.heading{
+    font-size: 55px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.expl{
+    font-size: 30px;
+    color: rgb(95, 134, 17);
+    margin-bottom: 10vh;
+}
+
+.landing{
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+
+.form_sec>input{
+    height: 25px;
+    width: 30%;
+    border: 1px solid rgb(70, 122, 70);
+    border-radius: 10px;
+    padding: 5px ;
+    margin-right: 10px;
+}
+
+.form_sec>button{
+    height: 35px;
+    width: 5%;
+    border: 1px solid rgb(70, 122, 70);
+    border-radius: 10px;
+    padding: 5px ;
+    background-color: rgb(166, 216, 156);
+    color: rgb(225, 245, 223);
+}
+
+.form_sec>input:focus{
+    outline: 1px solid rgb(167, 201, 167);
+}

@@ -1,0 +1,29 @@
+.box1, .box2, .box3, .box4{
+    border: 2px solid red;
+    margin: 20px;
+    padding: 20px;
+    background: orange;
+}
+
+.box1{
+    text-align: center;
+    color: orchid;
+    text-indent: 200px;
+    text-shadow: 1px 1px;
+}
+
+.box2{
+    letter-spacing: 10px;
+    line-height: 2;
+    text-decoration: underline;
+    /* underline overline line-through */
+}
+
+.box3{
+    opacity: .2;
+}
+
+.box4{
+    height: 50px;
+    overflow: auto;
+}

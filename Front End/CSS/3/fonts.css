@@ -1,0 +1,112 @@
+.font{
+    border: 1px solid black;
+    font-family: Irish Grover; 
+    /* 1em = browser default size */
+    font-size: 2vw;
+    /* Dymanamic Screen Size */
+    font-variant: small-caps;
+    color: chocolate;
+}
+
+/* Font Family is Family as:-
+    if browser dosen't support 1 font type it shift to another
+*/
+
+/* Generally Fonts are of 5 types:
+    serif
+    sans-serif
+    monoscape
+    cursive
+    fantasy
+*/
+
+.face{
+    color: blue;
+}
+
+/*https://fonts.google.com/*/
+/*https://fonts.google.com/icons*/
+
+.clss>a:active{
+    color: red;
+}
+
+.clss>a:hover{
+    color :green;
+}
+
+.clss>a:visited{
+    color: crimson;
+}
+
+/*Links*/
+
+.list1{
+    list-style: georgian;
+    /*list-style-image: url(https://static.thenounproject.com/png/212328-200.png);*/
+}
+
+.list2{
+    list-style: circle inside;    
+    list-style-position: inside;
+}
+
+/*List*/
+
+.table{
+    border: 1px solid red;
+    width: 50vw;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid red;
+    text-align: center;
+    vertical-align: bottom;
+    height: 30px;   
+}
+
+tr:nth-child(even){
+    background-color: grey;
+}
+
+tr:nth-child(odd){
+    background-color: indianred;
+}
+tr:nth-child(4){
+    background-color: black;
+}
+
+/* Table */
+
+.new{
+    display: block;
+    border: 1px solid rgb(105, 102, 102);
+    margin: 20px 0;
+    box-shadow: 10px 10px 20px grey;
+    /* Vertical horigontal blur color */
+}
+
+.new:hover{
+    visibility: hidden;
+}
+
+/*display Visiblity shadow */
+
+.pos{
+    position: relative;
+    /* There are 5 type of postions
+        static  By default position is static
+        relative   By relative it changes position to its static one.
+        fix   Postion will not change with respect to scrolling or at all like nobar of youtube
+        absolute   It will be related to the parent container
+        sticky It is based on user scroll position it is in between relative and fixed
+    */
+    top: 100px;
+    left: 100px;
+    z-index: 100;
+    /* Float will transport the block to left or right or top respectively */
+    /* the higher the z index value the more above its will be seen */   
+}
+
+/* position float z-index*/

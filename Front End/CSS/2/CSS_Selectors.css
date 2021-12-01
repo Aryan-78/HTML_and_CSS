@@ -1,0 +1,47 @@
+*{ /*Universal Selector*/
+    border: 1px solid red;
+}
+
+.class{ /*class Selector*/
+    color: white;
+}
+
+#id{ /*id Selector*/
+    background-color: blue;
+    text-align: center;
+}
+
+p{ /*element Selector*/
+    background-color: blue;
+}
+
+.box1, .box2{ /*Group Selector*/
+    background-color: lightseagreen;
+}
+
+.box1 > article { /*Child Selector*/
+    border: 1px solid black;
+}
+
+.box2 article{  /* Descendent Selector */  /* Child and Grand Child Selector */
+    border: 1px solid white;
+}
+
+/*
+.box1+article{   adjecent Selector
+    It Select the first adjecent article after box1
+}
+
+.box1~article{   sibbling Selector
+    It Select all the adjecent article after box1
+}
+*/
+
+/*
+There are 5 types of Selectors:-
+    elements                p{}
+    class                   .class{}
+    id                      #id{}
+    Universal   	        *{}
+    Group                   p .class #id {}
+*/

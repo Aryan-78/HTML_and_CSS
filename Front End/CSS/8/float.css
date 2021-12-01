@@ -1,0 +1,18 @@
+.box1{
+    border: 1px solid blueviolet;
+    float: left;
+}
+
+/* 
+    Div automatically remove the br when we use float
+*/
+
+.box2{
+    border: 1px solid salmon;
+    height: 100px;
+}
+
+
+.box2::after{
+    content: "-asjb";
+}

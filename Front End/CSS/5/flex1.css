@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 20vw;
+    border: 1px solid black;
+}
+
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* 
+        justify-content: space-around;
+        justify-content: space-between;
+    */
+    align-items: center
+    /* 
+        align-items: flex-end;
+        align-items: flex-start;
+    */
+}
+
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: green;
+}

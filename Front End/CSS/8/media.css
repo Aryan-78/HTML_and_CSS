@@ -1,0 +1,38 @@
+/* 
+    In media Query there are 3 types of media
+
+    Screen -> Laptop, tablet, Phone
+    print -> printer
+    Speech ->
+*/
+
+body{
+    background-color: blue;
+}
+
+@media screen and (min-width:800px) {
+    body{
+        background-color: red;
+    }
+}
+
+ul{
+    margin: 10px;
+    width: 300px;
+}
+
+li{
+    padding: 20px;
+    border: 1px solid black;
+    background-color: darkorange;
+}
+
+@media screen and (min-width:800px){
+    ul{
+        float: left;
+    }
+    .content{
+        padding: 20px;
+        margin: 10px;
+    }
+}

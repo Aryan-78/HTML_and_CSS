@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+
+        .FB_form{                                     
+            background: darkblue;
+        }
+
+        .border{
+            border: 2px dashed red;
+        }
+
+        #new{
+            background: green;
+            border: 2px solid yellow;
+        }
+
+        .border > h5{
+            color: silver;
+        }
+
+        h1{
+            color: magenta;
+        }
+    </style>
+    <!-- Different element can have same class name
+        class is denoted as .
+        id is denoted as #
+    -->
+
+    <!-- If you want to take tag of any specific class you use ">" attribue to denote it -->
+    <!-- ID has more weightage -->
+    <!-- Tag doesn't need any .or# start value -->
+    <!-- border is define using width type color -->
+</head>
+<body>
+    
+<!-- CSS stands for Cascading Style Sheets -->
+
+<!-- There are three way to add css in your HTML sheet 
+
+    inline css Disadvantage change every location & not clr
+    Internal Style tag in Head
+    External CSS file
+
+-->
+
+<!-- One tag can have multiple classes  -->
+
+<div class="FB_form" id="new">
+    <h1>Sign Up</h1>
+    <h5>Quick and Easy</h5>
+    <input type="text">
+    <input type="text">
+</div>
+<br>
+<div class="FB_form border">
+    <h1>Sign Up</h1>
+    <h5>Quick and Easy</h5>
+    <input type="text">
+    <input type="text">
+</div>
+<br>
+<div class="FB_form">
+    <h1>Sign Up</h1>
+    <h5>Quick and Easy</h5>
+    <input type="text">
+    <input type="text">
+</div>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+/*
+    animation
+*/
+
+.box{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    animation-name: ani;
+    animation-duration:2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    position: relative;
+    /* It itakes the final state of animation */animation-fill-mode: forwards;
+}
+
+.box2{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    animation-name: ani;
+    animation-duration:2s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    position: relative;
+    /* It itakes the final state of animation */animation-fill-mode: forwards;
+}
+
+.box3{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    animation-name: ani;
+    animation-duration:2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    position: relative;
+    /* It itakes the final state of animation */animation-fill-mode: forwards;
+}
+
+@keyframes ani {
+    from {background-color: red; left: 0; top: 0;}
+    to {background-color: maroon; left: 300px; top: 0;}
+}
+
+.box1{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    animation-name: anima;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    position: relative;
+}
+
+@keyframes anima {
+    0% {background-color: red; left: 0; top: 0;}
+    25% {background-color: yellow; left: 300px; top: 0;}
+    50% {background-color: blue; left: 300px; top: 300px;}
+    75% {background-color: green; left: 0px; top: 300px;}
+    100% {background-color: grey; left: 0px; top: 0;}
+}

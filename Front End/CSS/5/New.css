@@ -1,0 +1,61 @@
+div{    
+    background-color: red;
+}
+
+.box{
+    background-color: blue;
+}
+
+#box1{
+    background-color: green;
+}
+/*
+Specificity 
+id > class > element > Universal Selector( *{} )
+*/
+
+div{    
+    background-color: palevioletred !important;
+}
+
+/*
+With Important Your Specificity will increase
+*/
+
+
+/* Math Operation*/
+.box2{
+    width: calc(100vw - 100px);
+    /* calc(100% - 100px) */
+    /* min(50%,200px) */
+    /* max(50%,200px) */
+}
+
+/* Pseudo Class */
+
+.box2:hover{
+    font-size: 10vh;
+    background-color: chartreuse !important ;
+}
+
+/* Pseudo Element */
+/* It Select the element from the div container */
+
+.box2::first-letter{
+    color: darkturquoise;
+}
+
+/* Combinators */
+
+/*
+    There are 4 types of Combinators:-
+
+    Descendant Selector( ) - The descendant selector matches all elements that are descendants of a specified element.
+    Child Selector( > ) - The child selector selects all elements that are the children of a specified element.
+    Adjacent Sibling Selector( + ) - The adjacent sibling selector is used to select an element that is directly after another specific element. 
+    General Sibling Selector( ~ ) - The general sibling selector selects all elements that are next siblings of a specified element.
+*/
+
+/* Selector */
+
+

@@ -1,0 +1,46 @@
+.grid{
+    background-color: rgb(23, 160, 214);
+    display: grid;
+    /*
+    display: inline-grid;
+    Take the property of inline and add it into grid
+    */
+    grid-template-columns: repeat(3 , 10%);
+    /*
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 10% 20% 70%;
+    grid-template-columns: repeat(3 , auto);
+    */
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    /* 
+    
+    justify-content: space-between;
+    justify-content: space-around;
+    */
+    grid-gap: 10px 5px;
+    border: 2px double black;
+}
+
+.grid > div{
+    text-align: center;
+    height: auto;
+    background-color: skyblue;
+}
+
+.grid > div:nth-child(1){
+    grid-column: 1/4;
+}
+
+.grid > div:nth-child(2){
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.grid > div:nth-child(even){
+    background-color: red;
+}
+
+
+

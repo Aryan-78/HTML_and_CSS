@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+.pos1{
+    margin: 0 50px;
+    background-color: brown;
+    position: static;
+    border: 1px solid black;
+    z-index: 10;
+}
+
+/* Static is that it is static which is it is like that how it is*/
+
+/*
+
+.pos1{
+    margin: 0 50px;
+    background-color: brown;
+    position: relative;
+    left: 100px;
+    border: 1px solid black;
+    z-index: 10;
+}
+It will move relative to the position of the static div
+
+*/
+.tim{
+    margin: 100px;
+}
+
+
+.pos2{
+    height: 60vh;
+    margin: 50px;
+    background-color: darkgreen;
+    border: 1px solid black;
+    position: relative;
+    top: 0px;
+}
+
+.pos3{
+    margin: 10px;
+    background-color: crimson;
+    position: sticky;
+    top: 0;
+}
+
+/*
+.pos3{
+    margin: 10px;
+    background-color: crimson;
+    parent should be relative 
+    position: absolute;
+    top: 0;
+}
+Here the position of pos3 is with respect to pos2 or parent div
+*/
+
+/*
+.pos3{
+    margin: 10px;
+    background-color: crimson;
+    position: fixed;
+    top: 0;
+}
+Here the position of pos3 is with respect to the screen
+*/
+
+/*
+.pos2{
+    margin: 50px;
+    background-color: darkgreen;
+    border: 1px solid black;
+    position: sticky;
+    top: 0px;
+}
+
+Here pos2 act as sticky that is in between fixed and relative
+*/

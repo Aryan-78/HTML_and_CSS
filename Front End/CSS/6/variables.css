@@ -1,0 +1,21 @@
+:root{
+    --bgcolor:blue;
+    --height:100px;   /* Global Variable */
+}
+
+body{
+    --bgclr:red;
+    background-color: var(--bgcolor);
+}
+
+.box{
+    background-color: var(--bgclr);
+    /* 
+        bgclr is possible hear because it is the child of body
+    */
+    width: var(--height);
+    height: var(--height);
+    padding:100px;
+    box-sizing: border-box;
+    /* Because of the padding the size of the container increases */
+}

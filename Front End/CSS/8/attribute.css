@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+
+input{
+    border:1px solid red;
+}
+
+
+/* Attribute Selector */
+
+input[type = "text"]{
+    background-color: blueviolet;
+}
+
+a{
+    color: darkgreen;
+}
+
+a[href^= "#"]{
+    color: coral;
+}
+
+a[title]{
+    color: darkmagenta;
+}
+
+/* Type of Attribute Selectors */
+
+/*
+
+There are 5 types of attribute Selector
+1) * All the class with substring
+2) | start with the name of the class 
+3) ^ class with the prefix of the word
+4) $ end with the suffix of the word
+5) ~ end with the name of the word
+
+[ - act as a break point for the words ]
+
+*/

@@ -1,0 +1,29 @@
+.class1{
+    background-image: url(https://www.tutorialspoint.com/green/images/diamond.png);
+}
+.class2{
+    background-image: url(https://www.tutorialspoint.com/green/images/diamond.png);
+    background-repeat: repeat-x;
+}
+.class3{
+    background-image: url(https://www.tutorialspoint.com/green/images/diamond.png);
+    background-repeat: repeat-y;
+}
+.class4{
+    background-image: url(https://www.tutorialspoint.com/green/images/diamond.png);
+    background-repeat: no-repeat;
+}
+.class5{
+    background-image: url(https://www.tutorialspoint.com/green/images/diamond.png);
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.class6{
+    background-image: url(https://www.tutorialspoint.com/green/images/diamond.png);
+    background-position:top right;
+    background-repeat: no-repeat;
+}
+.class7{
+    background: blue url(https://www.tutorialspoint.com/green/images/diamond.png) no-repeat top right ;
+}
+/* We can create display as block inline and none as well */
